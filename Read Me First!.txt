@@ -1,0 +1,33 @@
+Citadel v1.1 Stable Source Release
+Citadel Filter created by:
+	Jason 
+		BlackArchon[irc]
+		BlackData[psc - damn name taken]
+		Jason18McD@aol.com
+
+#########
+Next Version
+#########
+My next release (real soon) will be advanced IRC Command parcing.
+Some commands look like:
+
+	:dream.chatcon.net 001 BlackArchon :Welcome to the Otherside IRC Network BlackArchon
+	:dream.chatcon.net 002 BlackArchon :Your host is dream.chatcon.net, running version irco4.0.0.rc3 [u2.10.10.pl13]
+	:dream.chatcon.net 003 BlackArchon :This server was created Wed May 9 2001 at 02:47:57 GMT
+	:dream.chatcon.net 004 BlackArchon dream.chatcon.net u2.10.10.pl13 acCdgiknoOprsSwx bHiklmnopqrsStv
+	:dream.chatcon.net 251 BlackArchon :There are 124 users and 100 invisible on 9 servers
+	:dream.chatcon.net 252 BlackArchon 8 :operator(s) online
+	:dream.chatcon.net 254 BlackArchon 137 :channels formed
+	:dream.chatcon.net 255 BlackArchon :I have 79 clients and 1 servers
+
+..with the 3 digit Command codes.  I am already working on it and almost done, but I didn't want to submit a semi-working parsed application.
+So I released the basic IRC Command version, that has some extra functions into it.  
+
+Please Enjoy
+
+#########
+Current
+#########
+This version basically works with all Ping Requests, Time Requests and Version Requests.  Grabs your local server, grabs anyone who Requests
+information from your client, and changes it.  Normally you see [Ping request:] 0 sec .. well now the person trying to get your ping see's
+[Ping Request:] Citadel Blocked this Request... nifty eh?  Just basic string parsing and rebuilding.
